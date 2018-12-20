@@ -1,4 +1,12 @@
-`````puml
+# シーケンス図
+
+## 概要
+PlantUML を用いたシーケンス図。
+
+## 環境
+GitHub でシーケンス図を表示するためには Chrome 拡張機能の [Pegmatite](https://chrome.google.com/webstore/search/Pegmatite) をインストールする必要があります。
+
+```puml
 @startuml
 ' 1行コメント
 /'
@@ -33,4 +41,4 @@ end
 Bob -> DB: Insert record 
 
 @enduml
-`````
+```
